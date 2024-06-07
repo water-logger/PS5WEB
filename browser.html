@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+        <title>PS5BROWSER</title>
+    </head>
+    <body>
+        <input id="url" value="https://google.com">
+        <button id="goto" onclick="changeIframe(document.getElementById('url').value)">></button>
+        <iframe id="window" onload="changeURL(this.contentWindow.location)" src="https://www.google.com/search?igu=1"></iframe>
+        <hr>
+        <button onclick="window.open(document.getElementById('url').value)">Fix</button>
+    </body>
+    <script src="index.js"></script>
+</html>

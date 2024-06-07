@@ -1,0 +1,19 @@
+body {
+    padding: 0; 
+    margin: 0;
+}
+
+#url {
+    width: 96.99%;
+    height: 3.5%;
+}
+
+#goto {
+    width: 2.74732%;
+    height: 3.5%;
+}
+
+#window {
+    width: 99.7%;
+    height: 96%;
+}
